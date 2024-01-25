@@ -1,7 +1,7 @@
 {
   "name": "phpcatcom/laravel-api-allautoparts",
   "description": "api for allautoparts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "authors": [
     {
       "name": "Sergey Baklanov php-cat.com",
@@ -28,6 +28,7 @@
   "require": {
     "laravel/framework": ">=10.0.0"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "Phpcatcom\\Api\\AllAutoParts\\": "src/"
