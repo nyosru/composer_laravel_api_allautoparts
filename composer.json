@@ -1,7 +1,7 @@
 {
   "name": "phpcatcom/laravel-api-allautoparts",
   "description": "api for allautoparts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "authors": [
     {
       "name": "Sergey Baklanov php-cat.com",
@@ -25,7 +25,7 @@
     }
   },
   "license": "MIT",
-  "require": {
+  "xrequire": {
     "laravel/framework": ">=10.0.0"
   },
   "minimum-stability": "dev",
