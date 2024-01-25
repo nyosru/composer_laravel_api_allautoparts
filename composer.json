@@ -1,0 +1,41 @@
+{
+  "name": "phpcatcom/laravel-api-allautoparts",
+  "description": "api for allautoparts",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Sergey Baklanov php-cat.com",
+      "email": "1@php-cat.com",
+      "homepage": "https://php-cat.com",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "laravel",
+    "api",
+    "allautoparts",
+    "php-cat.com",
+    "sergey baklanov"
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Phpcatcom\\Api\\AllautopartsServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "require": {
+    "laravel": ">=10.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phpcatcom\\Api\\AllAutoParts\\": "src/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/nyosru/composer-laravel-user-permission/issues",
+    "source": "https://packagist.org/packages/phpcatcom/laravel-permission",
+    "docs": "https://php-cat.com"
+  }
+}
