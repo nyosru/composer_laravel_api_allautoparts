@@ -1,7 +1,7 @@
 {
   "name": "phpcatcom/laravel-api-allautoparts",
   "description": "api for allautoparts",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "authors": [
     {
       "name": "Sergey Baklanov php-cat.com",
