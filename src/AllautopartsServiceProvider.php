@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpcatcom\Api;
+namespace Phpcatcom\Api\AllAutoParts;
 
 //use Illuminate\Support\Facades\Blade;
 use PhpCatCom\Middleware\AuthRoles;
@@ -27,7 +27,7 @@ class AllautopartsServiceProvider extends ServiceProvider
 //        $this->loadViewsFrom(__DIR__ . '/views', 'phpcatcom/permission/gui');
 //        require_once(__DIR__ . '/Routes/web.php');
 //        require_once(__DIR__ . '/Routes/api.php');
-        require_once(__DIR__ . '/Routes/api.php');
+//        require_once(__DIR__ . '/Routes/api.php');
 //
 ////        Blade::directive('role_in_permission', function ($ar,$role_id) {
 ////            return rand(1,2) == 1 ;
