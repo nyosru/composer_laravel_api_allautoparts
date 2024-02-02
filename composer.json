@@ -20,7 +20,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Phpcatcom\\Api\\AllAutoParts\\AllautopartsServiceProvider"
+        "Phpcatcom\\Api\\AllautopartsServiceProvider"
       ]
     }
   },

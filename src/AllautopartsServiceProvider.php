@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpcatcom\Api\AllAutoParts;
+namespace Phpcatcom\Api;
 
 //use Illuminate\Support\Facades\Blade;
 use PhpCatCom\Middleware\AuthRoles;
