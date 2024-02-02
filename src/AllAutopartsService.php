@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpcatcom\Api\Services;
+namespace Phpcatcom\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
