@@ -13,7 +13,7 @@ class AllAutopartsService extends Controller
      * @param string $login
      * @param string $passsword
      * @param string $search
-     * @return JsonResponse
+     * @return String
      */
     public static function get(int $api_id, string $login, string $passsword, string $search):string
     {
