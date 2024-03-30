@@ -24,9 +24,7 @@ class AllAutopartsService extends Controller
             'api_id' => $api_id
         ];
 
-        return file_get_contents('https://api74.php-cat.'.
-			( strpos( $_SERVER['HTTP_HOST'], 'local' ) !== false ? 'local' : 'com' )
-			.'/allautoparts/api.php?' . http_build_query($query));
+        return file_get_contents('https://api74.php-cat.com/allautoparts/api.php?' . http_build_query($query));
     }
 
 }
